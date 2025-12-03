@@ -2,6 +2,7 @@
 
 Automated system to analyze historiographical divergence by comparing Abraham Lincoln's accounts of historical events with those of other authors.
 
+Video link: [Watch Video](https://drive.google.com/file/d/1gkkgdfa_niCjmL6BBowQG6Ar8US2xs7k/view?usp=sharing)
 ## Project Overview
 
 This project builds an LLM-based evaluation system that:
