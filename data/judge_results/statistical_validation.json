@@ -1,0 +1,19 @@
+{
+  "score_statistics": {
+    "mean": 47.71349862258953,
+    "variance": 472.519900156766,
+    "std_dev": 21.737522861558215,
+    "min": 0,
+    "max": 95,
+    "count": 363
+  },
+  "contradiction_distribution": {
+    "Factual": 142,
+    "Interpretive": 85,
+    "Omission": 122,
+    "None": 14
+  },
+  "total_comparisons": 363,
+  "average_consistency": 47.71349862258953,
+  "consistency_range": "0-95"
+}

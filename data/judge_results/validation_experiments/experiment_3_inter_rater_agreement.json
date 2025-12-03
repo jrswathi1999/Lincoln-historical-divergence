@@ -1,0 +1,31 @@
+{
+  "experiment": "inter_rater_agreement",
+  "sample_size": 10,
+  "cohens_kappa": -0.25,
+  "correlation": -0.11159049512642046,
+  "human_alignment": "poor",
+  "manual_ratings": [
+    25,
+    35,
+    50,
+    20,
+    35,
+    15,
+    40,
+    40,
+    20,
+    35
+  ],
+  "llm_predictions": [
+    30,
+    25,
+    25,
+    25,
+    30,
+    30,
+    20,
+    45,
+    40,
+    40
+  ]
+}

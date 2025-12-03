@@ -1,0 +1,185 @@
+{
+  "experiment": "self_consistency",
+  "sample_size": 10,
+  "num_runs_per_pair": 5,
+  "temperature": 0.7,
+  "pair_results": [
+    {
+      "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+      "event_name": "Election Night 1860",
+      "scores": [
+        30,
+        30,
+        25,
+        30,
+        25
+      ],
+      "mean": 28,
+      "std_dev": 2.7386127875258306,
+      "variance": 7.5,
+      "min": 25,
+      "max": 30,
+      "range": 5
+    },
+    {
+      "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+      "event_name": "Election Night 1860",
+      "scores": [
+        70,
+        80,
+        75,
+        80,
+        80
+      ],
+      "mean": 77,
+      "std_dev": 4.47213595499958,
+      "variance": 20,
+      "min": 70,
+      "max": 80,
+      "range": 10
+    },
+    {
+      "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+      "event_name": "Election Night 1860",
+      "scores": [
+        65,
+        50,
+        45,
+        60,
+        60
+      ],
+      "mean": 56,
+      "std_dev": 8.215838362577491,
+      "variance": 67.5,
+      "min": 45,
+      "max": 65,
+      "range": 20
+    },
+    {
+      "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+      "event_name": "Election Night 1860",
+      "scores": [
+        30,
+        40,
+        30,
+        30,
+        30
+      ],
+      "mean": 32,
+      "std_dev": 4.47213595499958,
+      "variance": 20,
+      "min": 30,
+      "max": 40,
+      "range": 10
+    },
+    {
+      "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+      "event_name": "Election Night 1860",
+      "scores": [
+        20,
+        20,
+        10,
+        0,
+        15
+      ],
+      "mean": 13,
+      "std_dev": 8.366600265340756,
+      "variance": 70,
+      "min": 0,
+      "max": 20,
+      "range": 20
+    },
+    {
+      "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+      "event_name": "Election Night 1860",
+      "scores": [
+        15,
+        10,
+        0,
+        10,
+        0
+      ],
+      "mean": 7,
+      "std_dev": 6.708203932499369,
+      "variance": 45,
+      "min": 0,
+      "max": 15,
+      "range": 15
+    },
+    {
+      "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+      "event_name": "Election Night 1860",
+      "scores": [
+        35,
+        45,
+        30,
+        40,
+        30
+      ],
+      "mean": 36,
+      "std_dev": 6.519202405202649,
+      "variance": 42.5,
+      "min": 30,
+      "max": 45,
+      "range": 15
+    },
+    {
+      "pair_id": "election_night_1860_Abraham Lincoln_Henry Ketcham",
+      "event_name": "Election Night 1860",
+      "scores": [
+        40,
+        45,
+        45,
+        50,
+        45
+      ],
+      "mean": 45,
+      "std_dev": 3.5355339059327378,
+      "variance": 12.5,
+      "min": 40,
+      "max": 50,
+      "range": 10
+    },
+    {
+      "pair_id": "election_night_1860_Abraham Lincoln_Henry Ketcham",
+      "event_name": "Election Night 1860",
+      "scores": [
+        30,
+        40,
+        40,
+        40,
+        45
+      ],
+      "mean": 39,
+      "std_dev": 5.477225575051661,
+      "variance": 30,
+      "min": 30,
+      "max": 45,
+      "range": 15
+    },
+    {
+      "pair_id": "election_night_1860_Abraham Lincoln_Henry Ketcham",
+      "event_name": "Election Night 1860",
+      "scores": [
+        35,
+        40,
+        40,
+        40,
+        30
+      ],
+      "mean": 37,
+      "std_dev": 4.47213595499958,
+      "variance": 20,
+      "min": 30,
+      "max": 40,
+      "range": 10
+    }
+  ],
+  "overall_statistics": {
+    "mean_std_dev": 5.497762509912923,
+    "mean_range": 13,
+    "max_std_dev": 8.366600265340756,
+    "min_std_dev": 2.7386127875258306,
+    "judge_reliability": "medium"
+  }
+}

@@ -1,0 +1,69 @@
+You are analyzing a historical document about Abraham Lincoln. Extract ALL information you can find about this specific event.
+
+EVENT: {event_name} (ID: {event_id})
+
+DOCUMENT INFORMATION:
+- Title: {document_title}
+- Author: {author}
+
+TEXT TO ANALYZE:
+{chunk_text}
+
+INSTRUCTIONS:
+1. Read the text carefully and identify ANY mentions of {event_name}
+2. Extract ALL factual claims made about this event
+3. Note any dates, times, or temporal details mentioned
+4. Identify the tone/attitude toward the event (Sympathetic, Critical, Neutral, Descriptive, etc.)
+5. If NO information about this event is found, return an empty claims list
+
+OUTPUT FORMAT (JSON):
+You MUST return a JSON object with this exact structure:
+{{
+    "event": "{event_id}",
+    "author": "{author}",
+    "claims": ["claim 1", "claim 2", ...],
+    "temporal_details": {{
+        "date": "date if mentioned, else null",
+        "time": "time if mentioned, else null"
+    }},
+    "tone": "Sympathetic | Critical | Neutral | Descriptive | [other appropriate tone]"
+}}
+
+IMPORTANT REQUIREMENTS:
+- Only extract information that is EXPLICITLY about {event_name}
+- Be specific and factual in your claims - quote or paraphrase what the author actually says
+- Extract ALL claims found, not just one or two
+- If the text doesn't mention this event, return empty claims array: []
+- Return ONLY valid JSON, no additional text or explanation
+- The "tone" field should reflect the author's attitude/perspective toward the event
+- Claims should be direct statements about the event, not general background information
+
+EXAMPLE OUTPUT (when event is found):
+{{
+    "event": "fort_sumter",
+    "author": "Goodwin",
+    "claims": [
+        "Lincoln waited for the South to fire first",
+        "Seward opposed the resupply mission",
+        "The cabinet vote was 5 to 2"
+    ],
+    "temporal_details": {{
+        "date": "April 12, 1861",
+        "time": "4:30 AM"
+    }},
+    "tone": "Sympathetic"
+}}
+
+EXAMPLE OUTPUT (when event is NOT found):
+{{
+    "event": "{event_id}",
+    "author": "{author}",
+    "claims": [],
+    "temporal_details": {{
+        "date": null,
+        "time": null
+    }},
+    "tone": null
+}}
+
+

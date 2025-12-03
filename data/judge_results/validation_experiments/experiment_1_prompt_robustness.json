@@ -1,0 +1,208 @@
+{
+  "experiment": "prompt_robustness",
+  "sample_size": 10,
+  "strategies_tested": [
+    "zero_shot",
+    "chain_of_thought",
+    "few_shot"
+  ],
+  "results_by_strategy": {
+    "zero_shot": [
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+        "consistency_score": 20,
+        "contradiction_type": "Factual"
+      },
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+        "consistency_score": 80,
+        "contradiction_type": "Interpretive"
+      },
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+        "consistency_score": 65,
+        "contradiction_type": "Interpretive"
+      },
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+        "consistency_score": 40,
+        "contradiction_type": "Factual"
+      },
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+        "consistency_score": 20,
+        "contradiction_type": "Factual"
+      },
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+        "consistency_score": 10,
+        "contradiction_type": "Factual"
+      },
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+        "consistency_score": 45,
+        "contradiction_type": "Factual"
+      },
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_Henry Ketcham",
+        "consistency_score": 45,
+        "contradiction_type": "Factual"
+      },
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_Henry Ketcham",
+        "consistency_score": 40,
+        "contradiction_type": "Factual"
+      },
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_Henry Ketcham",
+        "consistency_score": 40,
+        "contradiction_type": "Interpretive"
+      }
+    ],
+    "chain_of_thought": [
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+        "consistency_score": 25,
+        "contradiction_type": "Factual"
+      },
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+        "consistency_score": 75,
+        "contradiction_type": "Interpretive"
+      },
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+        "consistency_score": 60,
+        "contradiction_type": "Omission"
+      },
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+        "consistency_score": 35,
+        "contradiction_type": "Factual"
+      },
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+        "consistency_score": 20,
+        "contradiction_type": "Factual"
+      },
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+        "consistency_score": 0,
+        "contradiction_type": "Factual"
+      },
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+        "consistency_score": 40,
+        "contradiction_type": "Factual"
+      },
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_Henry Ketcham",
+        "consistency_score": 40,
+        "contradiction_type": "Factual"
+      },
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_Henry Ketcham",
+        "consistency_score": 40,
+        "contradiction_type": "Factual"
+      },
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_Henry Ketcham",
+        "consistency_score": 55,
+        "contradiction_type": "Interpretive"
+      }
+    ],
+    "few_shot": [
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+        "consistency_score": 40,
+        "contradiction_type": "Omission"
+      },
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+        "consistency_score": 70,
+        "contradiction_type": "Interpretive"
+      },
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+        "consistency_score": 60,
+        "contradiction_type": "Omission"
+      },
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+        "consistency_score": 40,
+        "contradiction_type": "Omission"
+      },
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+        "consistency_score": 30,
+        "contradiction_type": "Factual"
+      },
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+        "consistency_score": 20,
+        "contradiction_type": "Factual"
+      },
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+        "consistency_score": 60,
+        "contradiction_type": "Interpretive"
+      },
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_Henry Ketcham",
+        "consistency_score": 40,
+        "contradiction_type": "Interpretive"
+      },
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_Henry Ketcham",
+        "consistency_score": 40,
+        "contradiction_type": "Factual"
+      },
+      {
+        "pair_id": "election_night_1860_Abraham Lincoln_Henry Ketcham",
+        "consistency_score": 40,
+        "contradiction_type": "Interpretive"
+      }
+    ]
+  },
+  "statistics_by_strategy": {
+    "zero_shot": {
+      "mean": 40.5,
+      "std_dev": 21.009257218875895,
+      "variance": 441.3888888888889,
+      "min": 10,
+      "max": 80,
+      "count": 10
+    },
+    "chain_of_thought": {
+      "mean": 39,
+      "std_dev": 21.31770260709264,
+      "variance": 454.44444444444446,
+      "min": 0,
+      "max": 75,
+      "count": 10
+    },
+    "few_shot": {
+      "mean": 44,
+      "std_dev": 15.05545305418162,
+      "variance": 226.66666666666666,
+      "min": 20,
+      "max": 70,
+      "count": 10
+    }
+  },
+  "stability_ranking": [
+    {
+      "strategy": "few_shot",
+      "std_dev": 15.05545305418162
+    },
+    {
+      "strategy": "zero_shot",
+      "std_dev": 21.009257218875895
+    },
+    {
+      "strategy": "chain_of_thought",
+      "std_dev": 21.31770260709264
+    }
+  ],
+  "most_stable": "few_shot"
+}

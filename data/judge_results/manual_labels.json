@@ -1,0 +1,190 @@
+[
+  {
+    "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+    "event_name": "Election Night 1860",
+    "lincoln_author": "Abraham Lincoln",
+    "other_author": "John G. Nicolay and John Hay",
+    "lincoln_claims": [
+      "Lincoln was held up as a dangerous radical and an enemy of the institutions of the South and of the peace and security of the Union.",
+      "The circular distributed before the election had a negative influence in the South as well as among Northern voters.",
+      "Lincoln felt constrained to make no declaration for the public after the election."
+    ],
+    "other_claims": [
+      "The entire popular vote (exclusive of South Carolina, which chose its electors by the Legislature) was for Taylor 1,360,752; for Cass 1,219,962; for Van Buren 291,342.",
+      "Of the electors, Taylor had 163 and Cass 137."
+    ],
+    "consistency_score": 25,
+    "category": "Contradictory",
+    "notes": "They only speak about election not about Lincoln involvement in it."
+  },
+  {
+    "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+    "event_name": "Election Night 1860",
+    "lincoln_author": "Abraham Lincoln",
+    "other_author": "John G. Nicolay and John Hay",
+    "lincoln_claims": [
+      "Lincoln was held up as a dangerous radical and an enemy of the institutions of the South and of the peace and security of the Union.",
+      "The circular distributed before the election had a negative influence in the South as well as among Northern voters.",
+      "Lincoln felt constrained to make no declaration for the public after the election."
+    ],
+    "other_claims": [
+      "The election of Lincoln to the presidency was perceived by the seceding States as a threat to the institution of African slavery.",
+      "The seceding States believed that Lincoln's election would lead to the loss of political power for slave States in the Union.",
+      "The fear of losing political power was magnified by the seceding States to incite resistance and rebellion among the population of the cotton States."
+    ],
+    "consistency_score": 35,
+    "category": "Contradictory",
+    "notes": "They both speak about Lincoln being held up as a dangerous radical and an enemy of the institutions of the South and of the peace and security of the Union. But Nicholay spoke more about the political climate and the fear of the seceding states."
+  },
+  {
+    "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+    "event_name": "Election Night 1860",
+    "lincoln_author": "Abraham Lincoln",
+    "other_author": "John G. Nicolay and John Hay",
+    "lincoln_claims": [
+      "Lincoln was held up as a dangerous radical and an enemy of the institutions of the South and of the peace and security of the Union.",
+      "The circular distributed before the election had a negative influence in the South as well as among Northern voters.",
+      "Lincoln felt constrained to make no declaration for the public after the election."
+    ],
+    "other_claims": [
+      "Lincoln addressed a crowd of about five thousand listeners on election night.",
+      "The audience was cold and possibly hostile towards Lincoln.",
+      "Lincoln defended his stance on the slavery question, claiming it was settled by the principle of 'popular sovereignty.'"
+    ],
+    "consistency_score": 50,
+    "category": "Consistent",
+    "notes": "They both speak about Lincoln addressing a crowd of about five thousand listeners on election night.But Lincoln did not give a speech on election night."
+  },
+  {
+    "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+    "event_name": "Election Night 1860",
+    "lincoln_author": "Abraham Lincoln",
+    "other_author": "John G. Nicolay and John Hay",
+    "lincoln_claims": [
+      "Lincoln was held up as a dangerous radical and an enemy of the institutions of the South and of the peace and security of the Union.",
+      "The circular distributed before the election had a negative influence in the South as well as among Northern voters.",
+      "Lincoln felt constrained to make no declaration for the public after the election."
+    ],
+    "other_claims": [
+      "The Democrats of Sangamon organized a 'still-hunt' during the election.",
+      "They made a feint of allowing the special election to go by default and did not make any nomination.",
+      "An independent Democrat known as 'Steamboat Smith' paraded his own name on the ballot."
+    ],
+    "consistency_score": 20,
+    "category": "Contradictory",
+    "notes": "Lincoln did not talk anything about the still-hunt. Nicolay and Hay talking about the democrats organizing a still-hunt."
+  },
+  {
+    "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+    "event_name": "Election Night 1860",
+    "lincoln_author": "Abraham Lincoln",
+    "other_author": "John G. Nicolay and John Hay",
+    "lincoln_claims": [
+      "Lincoln was held up as a dangerous radical and an enemy of the institutions of the South and of the peace and security of the Union.",
+      "The circular distributed before the election had a negative influence in the South as well as among Northern voters.",
+      "Lincoln felt constrained to make no declaration for the public after the election."
+    ],
+    "other_claims": [
+      "Lincoln received 47 votes on the ninth ballot.",
+      "Lincoln received 15 votes on the tenth ballot.",
+      "Trumbull received 35 votes on the ninth ballot."
+    ],
+    "consistency_score": 35,
+    "category": "Contradictory",
+    "notes": "Lincoln did not talk anything about the election results. Nicolay and Hay talking about the election results."
+  },
+  {
+    "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+    "event_name": "Election Night 1860",
+    "lincoln_author": "Abraham Lincoln",
+    "other_author": "John G. Nicolay and John Hay",
+    "lincoln_claims": [
+      "Lincoln was held up as a dangerous radical and an enemy of the institutions of the South and of the peace and security of the Union.",
+      "The circular distributed before the election had a negative influence in the South as well as among Northern voters.",
+      "Lincoln felt constrained to make no declaration for the public after the election."
+    ],
+    "other_claims": [
+      "The day of election for delegate was November 29th.",
+      "There was a formidable invasion of Missouri voters at more than half the polling places appointed in the Governor's proclamation."
+    ],
+    "consistency_score": 15,
+    "category": "Contradictory",
+    "notes": "Lincoln did not talk anything about the election day. Nicolay and Hay talking about the election day."
+  },
+  {
+    "pair_id": "election_night_1860_Abraham Lincoln_John G. Nicolay and John Hay",
+    "event_name": "Election Night 1860",
+    "lincoln_author": "Abraham Lincoln",
+    "other_author": "John G. Nicolay and John Hay",
+    "lincoln_claims": [
+      "Lincoln was held up as a dangerous radical and an enemy of the institutions of the South and of the peace and security of the Union.",
+      "The circular distributed before the election had a negative influence in the South as well as among Northern voters.",
+      "Lincoln felt constrained to make no declaration for the public after the election."
+    ],
+    "other_claims": [
+      "The election was marred by an aggregate of 1729 illegal votes and only 1114 legal ones.",
+      "The event was described as a mockery of an election.",
+      "The victory was celebrated by groups in Missouri, who viewed it as a triumph for slavery over abolitionists."
+    ],
+    "consistency_score": 40,
+    "category": "Contradictory",
+    "notes": "Related to lincoln being radical and abolisinist but Nicolay and Hay talking about the election day. "
+  },
+  {
+    "pair_id": "election_night_1860_Abraham Lincoln_Henry Ketcham",
+    "event_name": "Election Night 1860",
+    "lincoln_author": "Abraham Lincoln",
+    "other_author": "Henry Ketcham",
+    "lincoln_claims": [
+      "Lincoln was held up as a dangerous radical and an enemy of the institutions of the South and of the peace and security of the Union.",
+      "The circular distributed before the election had a negative influence in the South as well as among Northern voters.",
+      "Lincoln felt constrained to make no declaration for the public after the election."
+    ],
+    "other_claims": [
+      "The unusual quietness of the democrats was the most dangerous sign on election night.",
+      "The democrats organized a 'still hunt' which was a fair move.",
+      "Democratic workers appeared at every election precinct to electioneer for their candidate."
+    ],
+    "consistency_score": 40,
+    "category": "Contradictory",
+    "notes": "Ketcham was talking about democrats and their reaction to the election but Lincoln was not, they both did talk about the sentiment of the public about the election. "
+  },
+  {
+    "pair_id": "election_night_1860_Abraham Lincoln_Henry Ketcham",
+    "event_name": "Election Night 1860",
+    "lincoln_author": "Abraham Lincoln",
+    "other_author": "Henry Ketcham",
+    "lincoln_claims": [
+      "Lincoln was held up as a dangerous radical and an enemy of the institutions of the South and of the peace and security of the Union.",
+      "The circular distributed before the election had a negative influence in the South as well as among Northern voters.",
+      "Lincoln felt constrained to make no declaration for the public after the election."
+    ],
+    "other_claims": [
+      "Buchanan carried every slave state except Maryland, which went to Fillmore.",
+      "Fremont carried every New England state and five other northern states.",
+      "Buchanan received 174 electoral votes; Fremont, 114; Fillmore, 8."
+    ],
+    "consistency_score": 20,
+    "category": "Contradictory",
+    "notes": "Lincoln did not talk anything about the election results. Ketcham talking about the election results."
+  },
+  {
+    "pair_id": "election_night_1860_Abraham Lincoln_Henry Ketcham",
+    "event_name": "Election Night 1860",
+    "lincoln_author": "Abraham Lincoln",
+    "other_author": "Henry Ketcham",
+    "lincoln_claims": [
+      "Lincoln was held up as a dangerous radical and an enemy of the institutions of the South and of the peace and security of the Union.",
+      "The circular distributed before the election had a negative influence in the South as well as among Northern voters.",
+      "Lincoln felt constrained to make no declaration for the public after the election."
+    ],
+    "other_claims": [
+      "The people did it, but Buchanan forgets that those who voted for him are in a minority by about four hundred thousand votes.",
+      "All who did not vote for Mr. Buchanan are a majority of four hundred thousand.",
+      "In the late contest, the opposition was divided between Fremont and Fillmore."
+    ],
+    "consistency_score": 35,
+    "category": "Consistent",
+    "notes": "They both speak about political climate related to lincoln but Ketcham is discussing the vote dynamics and how Buchanan election was viewed by the public."
+  }
+]

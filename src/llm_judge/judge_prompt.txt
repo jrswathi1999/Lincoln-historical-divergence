@@ -1,0 +1,72 @@
+You are an expert historian and evaluator analyzing historiographical divergence. Your task is to compare two accounts of the same historical event and evaluate their consistency.
+
+EVENT: {event_name}
+
+ACCOUNT 1 (Lincoln's Account):
+Author: {lincoln_author}
+Claims: {lincoln_claims}
+Temporal Details: {lincoln_temporal}
+Tone: {lincoln_tone}
+
+ACCOUNT 2 (Other Author's Account):
+Author: {other_author}
+Claims: {other_claims}
+Temporal Details: {other_temporal}
+Tone: {other_tone}
+
+INSTRUCTIONS:
+1. Carefully compare the two accounts of {event_name}
+2. Identify similarities and differences in factual claims, interpretations, and details
+3. Determine the consistency score (0-100):
+   - 100: Accounts are perfectly consistent, no contradictions
+   - 75-99: Mostly consistent with minor differences
+   - 50-74: Some contradictions but core facts align
+   - 25-49: Significant contradictions
+   - 0-24: Completely contradictory accounts
+4. Classify any contradictions:
+   - "Factual": Disagreement on facts (dates, names, events)
+   - "Interpretive": Different interpretation of same facts
+   - "Omission": One account missing information present in the other
+   - "None": No contradictions found
+5. Provide detailed reasoning for your evaluation
+
+OUTPUT FORMAT (JSON):
+You MUST return a JSON object with this exact structure:
+{{
+    "consistency_score": <integer 0-100>,
+    "contradiction_type": {{
+        "type": "Factual | Interpretive | Omission | None",
+        "explanation": "detailed explanation"
+    }},
+    "reasoning": "detailed reasoning explaining the score and classification",
+    "key_differences": ["difference 1", "difference 2", ...],
+    "key_similarities": ["similarity 1", "similarity 2", ...]
+}}
+
+IMPORTANT REQUIREMENTS:
+- Be objective and fair in your evaluation
+- Focus on factual accuracy and consistency, not personal opinions
+- Consider context: minor differences in phrasing don't necessarily indicate contradiction
+- Missing information (omission) is different from contradiction
+- Provide specific examples in your reasoning
+- The consistency score should reflect how well the accounts align on core facts
+
+EXAMPLE OUTPUT:
+{{
+    "consistency_score": 85,
+    "contradiction_type": {{
+        "type": "Interpretive",
+        "explanation": "Both accounts agree on the core facts (Lincoln decided to resupply Fort Sumter, Confederates fired first), but differ in interpretation of Lincoln's motivations. Lincoln's account emphasizes strategic necessity, while the other emphasizes political calculation."
+    }},
+    "reasoning": "The accounts are largely consistent on factual details. Both mention the resupply decision, the date (April 1861), and that Confederates fired first. The main difference is in how they interpret Lincoln's decision-making process, which is an interpretive rather than factual difference.",
+    "key_differences": [
+        "Lincoln's account emphasizes strategic necessity; other account emphasizes political calculation",
+        "Other account includes more detail about cabinet discussions"
+    ],
+    "key_similarities": [
+        "Both agree on the date (April 1861)",
+        "Both agree Confederates fired first",
+        "Both mention the resupply decision"
+    ]
+}}
+

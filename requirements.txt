@@ -1,0 +1,38 @@
+# Core dependencies
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# LLM and AI
+openai>=1.0.0
+anthropic>=0.7.0  # For Claude API (alternative to OpenAI)
+instructor>=0.4.0  # Structured outputs with Pydantic
+pydantic>=2.0.0  # Data validation (required by instructor)
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Statistical analysis
+scipy>=1.11.0
+scikit-learn>=1.3.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+tenacity>=8.2.0  # For retry logic
+
+# PDF processing
+PyPDF2>=3.0.0
+
+# Browser automation for JavaScript-rendered pages
+selenium>=4.15.0
+webdriver-manager>=4.0.0  # Auto-manages ChromeDriver
+
+# JSON handling
+jsonschema>=4.17.0
+
