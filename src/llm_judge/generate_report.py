@@ -501,7 +501,7 @@ def generate_markdown_report(output_file: Path):
     report_lines.append("")
     report_lines.append("**Solutions Implemented**:")
     report_lines.append("")
-    report_lines.append("1. **JSON API Integration**: LoC provides a JSON API format (`?fo=json`) that wasn't immediately obvious. I implemented:")
+    report_lines.append("1. **JSON API Integration**: LoC provides a JSON API format (`?fo=json`) that wasn't immediately obvious. We implemented:")
     report_lines.append("   - Primary JSON API access for structured metadata")
     report_lines.append("   - Fallback to HTML scraping when JSON fails")
     report_lines.append("   - Extraction of `fulltext_file` URLs from nested JSON structures")

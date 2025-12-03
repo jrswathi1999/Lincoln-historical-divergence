@@ -256,7 +256,7 @@ This section explicitly addresses the four key evaluation criteria for this asse
 
 **Solutions Implemented**:
 
-1. **JSON API Integration**: LoC provides a JSON API format (`?fo=json`) that wasn't immediately obvious. I implemented:
+1. **JSON API Integration**: LoC provides a JSON API format (`?fo=json`) that wasn't immediately obvious. We implemented:
    - Primary JSON API access for structured metadata
    - Fallback to HTML scraping when JSON fails
    - Extraction of `fulltext_file` URLs from nested JSON structures
